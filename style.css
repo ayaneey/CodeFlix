@@ -1,5 +1,6 @@
 :root {
   --primary-color: #e50914;
+  --dark-color: #141414;
 }
 
 * {
@@ -46,9 +47,22 @@ img {
   background-image: url(./assets/images/background.jpeg);
 }
 
+.showcase::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
 .showcase-top {
   position: relative;
   height: 90px;
+  z-index: 2;
 }
 
 .showcase-top img {
@@ -75,6 +89,7 @@ img {
   align-items: center;
   text-align: center;
   margin-top: 9rem;
+  z-index: 2;
 }
 
 .showcase-content h1 {
@@ -93,6 +108,21 @@ img {
   margin: 0 0 2rem;
 }
 
+/* Tabs */
+.tabs {
+  background: var(--dark-color);
+  padding-top: 1rem;
+  border-bottom: 3px solid #3d3d3d;
+}
+
+.tabs .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 /* Buttons */
 .btn {
   display: inline-block;
