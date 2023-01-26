@@ -23,6 +23,10 @@ From this project, I was able to develop on my Javascript and CSS skills further
 
 ## Deployed App
 
+<img width="1486" alt="Screenshot 2023-01-26 at 12 34 58 pm" src="https://user-images.githubusercontent.com/108099259/214838621-d5819a5c-1406-476c-9668-544af926d338.png">
+
+<br>
+
 You can find the deployed app by clicking [HERE](https://ayaneey.github.io/CodeFlix/)
 
 ## GitHub
